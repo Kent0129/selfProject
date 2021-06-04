@@ -1,0 +1,76 @@
+textarea {
+  resize: vertical;
+}
+
+.nav-right{
+margin-left: auto;
+}
+.contact_box{
+  max-width: 700px;
+}
+
+.messages{
+    max-width:615px;
+  }
+
+.footer{
+  height: 100px;
+}
+.j-card{
+  height:570px;
+}
+.u-card{
+  height: 400px;
+}
+
+.message-box{
+  height:250px;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.a1,.a2,.a3{
+    margin-right: auto;
+}
+.b1,.b2,.b3{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+#message-box, .message-box{
+  resize: none;
+}
+  @media screen and (max-width: 768px) {
+  /* 768pxまでの幅の場合に適応される */
+  .j-card{
+    height:480px;
+  }
+  .u-card{
+    max-height: 350px;
+  }
+
+  .messages{
+    max-width:80%;
+  }
+}
+  @media screen and (max-width:480px) { 
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .j-card{
+    min-height:600px;
+  }
+  .u-card{
+    max-height: 400px;
+  }
+    .messages{
+      max-width: 80%;
+    }
+  }
